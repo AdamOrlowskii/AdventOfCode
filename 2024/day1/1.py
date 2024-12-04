@@ -14,6 +14,7 @@ def count():
         list2[x] = int(list2[x])
         answer += abs(list1[x] - list2[x])
     print(answer)
+    file.close()
 
 
 if __name__ == '__main__':
